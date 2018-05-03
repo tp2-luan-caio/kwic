@@ -1,0 +1,10 @@
+[package]
+name = "kwic"
+version = "0.1.0"
+authors = ["LPignata <luanpignat@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "kwic"
+path = "src/main.rs"
