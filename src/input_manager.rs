@@ -1,12 +1,13 @@
-pub mod input_manager {
-    pub trait InputManager {
-        // Constructor
-        fn new();
+pub mod imput_manager {
+	
 
-        // Get a specific line
-        fn line(index: i32) -> str;
+	pub trait InputManager {
+		 fn new(&mut self);
+	    
+	    // Get a specific line
+   		 fn line(&mut self, index: i32) -> String;
 
-        // Get the total number of lines
-        fn length() -> i32;
-    }
-}
+    	 fn length(&mut self) -> i32;
+    	// Get the total number of lines
+	}
+}	

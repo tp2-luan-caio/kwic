@@ -1,24 +1,24 @@
-mod input_manager;
+pub mod shell_imput_manager {
 
-pub mod shell_input_manager {
-
-    pub struct ShellInputManager {lines: Vec<str>}
-
-    impl input_manager::InputManager for ShellInputManager {
+    pub struct ShellInputManager{} 
+    use input_manager::imput_manager::InputManager;
+    
+    impl InputManager for ShellInputManager {
         // Constructor
-        fn new() {
-
+        fn new(&mut self) {
+            println!("Batata");
         }
-
         // Get a specific line
-        fn line(index: i32) -> str {
-
+        fn line(&mut self, index: i32) -> String {
+            "Ovo é bom".to_string()
         }
-
         // Get the total number of lines
-        fn length() -> i32 {
+        fn length(&mut self) -> i32{
+            0
+        }        
 
-        }
     }
+
+    
 
 }
