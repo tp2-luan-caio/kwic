@@ -10,7 +10,7 @@ fn main() {
 	use text_input_manager::text_input_manager::TextInputManager;
 	use dblp_input_manager::dblp_input_manager::DBLPInputManager;
 
-	let mut input = ShellInputManager{
+	let mut input = TextInputManager{
 		lines: Vec::new(),
 	};
 

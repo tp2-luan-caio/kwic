@@ -1,20 +1,43 @@
 pub mod text_input_manager {
 
-    pub struct TextInputManager{}
+    pub struct TextInputManager{
+        pub lines: Vec<String>,
+    }
     use input_manager::input_manager::InputManager;
+    use std::fs::File;
+    use std::io;
 
     impl InputManager for TextInputManager {
         // Constructor
         fn new(&mut self) {
-            println!("Batata");
+            let mut file_name: String = String::from("file/");
+            let mut input = String::new();
+            let mut file;
+
+            // Read name file
+            println!("Digite o nome do arquivo:");
+            match io::stdin().read_line(&mut input) {
+                Ok(..) => file_name.push_str(&input[..]),
+                Err(error) => println!("error: {}", error),
+            }
+            input.clear();
+
+            // Read file
+             match File::open(file_name.parse().unwrap()) {
+                 Ok(f) => file = f,
+                 Err(error) => println!("error: {}", error),
+             }
+
         }
+
         // Get a specific line
         fn line(&mut self, index: usize) -> String {
-            "Ovo é bom".to_string()
+            self.lines[index].to_string()
         }
+
         // Get the total number of lines
-        fn length(&mut self) -> usize{
-            0
+        fn length(&mut self) -> usize {
+            self.lines.len()
         }
 
     }
