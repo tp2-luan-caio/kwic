@@ -3,7 +3,11 @@ name = "kwic"
 version = "0.1.0"
 authors = ["LPignata <luanpignat@gmail.com>"]
 
+[dependencies.curl]
+git = "https://github.com/carllerche/curl-rust"
+
 [dependencies]
+rustc-serialize = "0.3"
 
 [[bin]]
 name = "kwic"

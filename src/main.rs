@@ -1,3 +1,5 @@
+extern crate curl;
+
 mod input_manager;
 mod shell_input_manager;
 mod text_input_manager;
@@ -10,7 +12,7 @@ fn main() {
 	use text_input_manager::text_input_manager::TextInputManager;
 	use dblp_input_manager::dblp_input_manager::DBLPInputManager;
 
-	let mut input = TextInputManager{
+	let mut input = DBLPInputManager{
 		lines: Vec::new(),
 	};
 

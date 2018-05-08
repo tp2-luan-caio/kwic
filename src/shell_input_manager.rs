@@ -1,8 +1,6 @@
 pub mod shell_input_manager {
 
-    pub struct ShellInputManager{
-        pub lines: Vec<String>,
-    }
+    pub struct ShellInputManager{ pub lines: Vec<String>, }
     use input_manager::input_manager::InputManager;
     use std::io;
 
@@ -38,13 +36,9 @@ pub mod shell_input_manager {
             }
         }
         // Get a specific line
-        fn line(&mut self, index: usize) -> String {
-            self.lines[index].to_string()
-        }
+        fn line(&mut self, index: usize) -> String { self.lines[index].to_string() }
         // Get the total number of lines
-        fn length(&mut self) -> usize {
-            self.lines.len()
-        }        
+        fn length(&mut self) -> usize { self.lines.len() }
 
     }
 }
