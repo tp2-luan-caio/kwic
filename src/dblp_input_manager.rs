@@ -2,26 +2,41 @@ pub mod dblp_input_manager {
 
     pub struct DBLPInputManager{ pub lines: Vec<String>, }
 
-    use curl::easy::Easy;
-    use std::io::{stdout, Write};
-    use rustc_serialize::json::Json;
-    use input_manager::input_manager::InputManager;
+    struct Collector(Vec<u8>);
 
+    use std::str;
+    use input_manager::input_manager::InputManager;
+    use curl::easy::{Easy2, Handler, WriteError};
+
+    impl Handler for Collector {
+        fn write(&mut self, data: &[u8]) -> Result<usize, WriteError> {
+            self.0.extend_from_slice(data);
+            Ok(data.len())
+        }
+    }
 
     impl InputManager for DBLPInputManager {
         // Constructor
         fn new(&mut self) {
-            let mut dst = Vec::new();
-            let mut json;
-
             // Request JSON
-            let mut easy = Easy::new();
+            let mut easy = Easy2::new(Collector(Vec::new()));
+            easy.get(true).unwrap();
             easy.url("http://dblp.org/search/publ/api?q=\"+query+\"&format=json").unwrap();
-            easy.write_function(|data| {
-                json = Json::from_str(data).unwrap();
-                Ok(data.len())
-            }).unwrap();
             easy.perform().unwrap();
+
+            assert_eq!(easy.response_code().unwrap(), 200);
+            let contents = easy.get_ref();
+            let response = String::from_utf8_lossy(&contents.0);
+
+            // Read JSON
+            let split = response.split("\n");
+            for line in split {
+                let mut text = String::from(line);
+                if text.contains("\"title\":") {
+                    println!("{}", text.splice(..text.find("\"title\":").unwrap(), ""));
+                    //self.lines.push();
+                }
+            }
 
         }
 

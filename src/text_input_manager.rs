@@ -23,8 +23,8 @@ pub mod text_input_manager {
 
             // Read file
             file = File::open(file_name.trim()).expect("Erro ao abrir o arquivo");
-            file.read_to_string(&mut input);
-            let mut split = input.split("\n");
+            file.read_to_string(&mut input).unwrap();
+            let split = input.split("\n");
             for line in split {
                 self.lines.push(String::from(line.trim()));
             }
