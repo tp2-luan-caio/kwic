@@ -4,7 +4,6 @@ pub mod dblp_input_manager {
 
     struct Collector(Vec<u8>);
 
-    use std::str;
     use input_manager::input_manager::InputManager;
     use curl::easy::{Easy2, Handler, WriteError};
 
@@ -33,8 +32,8 @@ pub mod dblp_input_manager {
             for line in split {
                 let mut text = String::from(line);
                 if text.contains("\"title\":") {
-                    println!("{}", text.splice(..text.find("\"title\":").unwrap(), ""));
-                    //self.lines.push();
+                    let txt = &text[(text.find("\"title\":").unwrap()+9)..];
+                    self.lines.push(String::from(&txt[..txt.find("\"").unwrap()]));
                 }
             }
 
