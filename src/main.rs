@@ -19,7 +19,7 @@ fn main() {
 
 	// Method Input
 	let mut input = DBLPInputManager{ lines: Vec::new(), };
-	input.new();
+    input.new();
 
 	// Stop Words
 	let mut stop = StopWordManager{ stop_words: Vec::new(), };
@@ -30,6 +30,6 @@ fn main() {
 		index: HashMap::new(),
 		stop_words: stop,
 	};
-	index.count(&input);
+	index.count(&mut input);
 
 }
