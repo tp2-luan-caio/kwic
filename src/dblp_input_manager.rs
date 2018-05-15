@@ -17,6 +17,7 @@ pub mod dblp_input_manager {
     impl InputManager for DBLPInputManager {
         // Constructor
         fn new(&mut self) {
+            println!("Utilizando DBLP.");
             // Request JSON
             let mut easy = Easy2::new(Collector(Vec::new()));
             easy.get(true).unwrap();
@@ -33,7 +34,7 @@ pub mod dblp_input_manager {
                 let mut text = String::from(line);
                 if text.contains("\"title\":") {
                     let txt = &text[(text.find("\"title\":").unwrap()+9)..];
-                    self.lines.push(String::from(&txt[..txt.find("\"").unwrap()]));
+                    self.lines.push(String::from(&txt[..txt.find("\"").unwrap()]).to_lowercase());
                 }
             }
 

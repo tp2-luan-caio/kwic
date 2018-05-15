@@ -22,10 +22,12 @@ fn main() {
 	use std::collections::HashMap;
 
 	// Method Input
+    println!("Entrada:");
 	let mut input = DBLPInputManager{ lines: Vec::new(), };
     input.new();
 
 	// Stop Words
+    println!("\nStop Words:");
 	let mut stop = StopWordManager{ stop_words: Vec::new(), };
 	stop.new();
 
@@ -35,5 +37,9 @@ fn main() {
 		stop_words: stop,
 	};
 	index.count(&mut input);
+
+	// Method Output
+	let mut output = ShellOutputManager { index: index.index };
+    output.show();
 
 }

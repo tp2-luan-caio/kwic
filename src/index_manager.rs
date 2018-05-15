@@ -4,12 +4,12 @@ pub mod index_manager {
     use stop_word_manager::stop_word_manager::StopWordManager;
 
     pub struct IndexManager{
-        pub index: HashMap<String, (String, usize)>,
+        pub index: HashMap<String, Vec<(String, i32)> >,
         pub stop_words: StopWordManager,
     }
 
     impl IndexManager {
-        fn word_count(&mut self, mut word_list: Vec<String>, text_line: String) {
+        fn word_count(&mut self, mut word_list: Vec<String>, text_line: String, index: i32) {
             if word_list.is_empty() {
                 return
             }
@@ -17,25 +17,30 @@ pub mod index_manager {
             if !self.stop_words.is_stop_word(String::from(word.trim())) {
                 if self.index.contains_key(&word) {
                     let mut data = self.index.get_mut(&word).unwrap();
-                    data.1 = data.1 + 1;
+                    data.push((String::from(&text_line[..]), index));
                 }
                 else {
-                    self.index.insert(String::from(word.trim()), (String::from(text_line.trim()), 1));
+                    let mut vec = Vec::new();
+                    vec.push((String::from(&text_line[..]), index));
+                    self.index.insert(String::from(word.trim()), vec);
                 }
             }
-            self.word_count(word_list, text_line);
+            self.word_count(word_list, text_line, (index+1));
         }
 
         pub fn count(&mut self, word_list: &mut InputManager) {
+            let x: &[_] = &[',', '.', '\'', '"', '-', ':', ';', '?', '!', '(', ')'];
             for index in 0..word_list.length() {
                 let line = word_list.line(index);
                 let aux = String::from(line.trim());
                 let words = aux.split(" ");
                 let mut vec: Vec<String> = Vec::new();
                 for word in words {
-                    vec.push(String::from(word));
+                    if !word.trim_matches(x).is_empty() {
+                        vec.push(String::from(word.trim_matches(x)));
+                    }
                 }
-                self.word_count(vec, line);
+                self.word_count(vec, line, 1);
             }
         }
     }

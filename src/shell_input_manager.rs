@@ -29,7 +29,7 @@ pub mod shell_input_manager {
             for x in 0..inp_lines {
                 println!("Linha {}:", (x+1));
                 match io::stdin().read_line(&mut input) {
-                    Ok(..) => self.lines.push(String::from(input.trim())),
+                    Ok(..) => self.lines.push(String::from(input.trim()).to_lowercase()),
                     Err(error) => println!("error: {}", error),
                 }
                 input.clear();
