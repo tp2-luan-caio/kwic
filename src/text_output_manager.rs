@@ -9,7 +9,7 @@ pub mod text_output_manager {
     impl OutputManager for TextOutputManager {
         fn show(&mut self) {
             let index = &self.index;
-            let mut file = File::create("file/output.txt");
+            let mut file = File::create("outputkwic.txt");
             let mut text = String::from("");
             for vec in index {
                 text.push_str("\n");
