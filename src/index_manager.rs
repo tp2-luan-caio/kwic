@@ -16,7 +16,7 @@ pub mod index_manager {
             let word = word_list.remove(0).to_string();
             if !self.stop_words.is_stop_word(String::from(word.trim())) {
                 if self.index.contains_key(&word) {
-                    let mut data = self.index.get_mut(&word).unwrap();
+                    let data = self.index.get_mut(&word).unwrap();
                     data.push((String::from(&text_line[..]), index));
                 }
                 else {
@@ -25,7 +25,7 @@ pub mod index_manager {
                     self.index.insert(String::from(word.trim()), vec);
                 }
             }
-            self.word_count(word_list, text_line, (index+1));
+            self.word_count(word_list, text_line, index+1);
         }
 
         pub fn count(&mut self, word_list: &mut InputManager) {

@@ -6,6 +6,7 @@ mod shell_input_manager;
 mod text_input_manager;
 mod dblp_input_manager;
 mod shell_output_manager;
+mod text_output_manager;
 mod stop_word_manager;
 mod index_manager;
 
@@ -17,13 +18,14 @@ fn main() {
 	use text_input_manager::text_input_manager::TextInputManager;
 	use dblp_input_manager::dblp_input_manager::DBLPInputManager;
     use shell_output_manager::shell_output_manager::ShellOutputManager;
+    use text_output_manager::text_output_manager::TextOutputManager;
 	use stop_word_manager::stop_word_manager::StopWordManager;
 	use index_manager::index_manager::IndexManager;
 	use std::collections::HashMap;
 
 	// Method Input
     println!("Entrada:");
-	let mut input = TextInputManager{ lines: Vec::new(), };
+	let mut input = DBLPInputManager{ lines: Vec::new(), };
     input.new();
 
 	// Stop Words
@@ -39,7 +41,7 @@ fn main() {
 	index.count(&mut input);
 
 	// Method Output
-	let mut output = ShellOutputManager { index: index.index };
+	let mut output = TextOutputManager { index: index.index };
     output.show();
 
 }

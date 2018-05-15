@@ -6,7 +6,7 @@ pub mod shell_output_manager {
 
     impl OutputManager for ShellOutputManager {
         fn show(&mut self) {
-            let mut index = &self.index;
+            let index = &self.index;
             for vec in index {
                 println!("\n{}:", vec.0);
                 for word in vec.1 {
