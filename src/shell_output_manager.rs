@@ -8,11 +8,10 @@ pub mod shell_output_manager {
         fn show(&mut self) {
             let mut index = &self.index;
             for vec in index {
-                println!("{}:", vec.0);
+                println!("\n{}:", vec.0);
                 for word in vec.1 {
                     println!("{} - position: {}", word.0, word.1);
                 }
-                println!();
             }
         }
     }

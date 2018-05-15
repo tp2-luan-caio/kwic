@@ -13,11 +13,12 @@ pub mod stop_word_manager {
             let mut input = TextInputManager{ lines: Vec::new(), };
             input.new();
 
+            let z: &[_] = &[',', '.', '\'', '"', '-', ':', ';', '?', '!', '(', ')'];
             for x in 0..input.length() {
                 let line = input.line(x);
                 let words = line.split(" ");
                 for word in words {
-                    self.stop_words.push(String::from(word.trim()));
+                    self.stop_words.push(String::from(word.trim_matches(z)));
                 }
             }
         }

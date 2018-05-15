@@ -23,7 +23,7 @@ fn main() {
 
 	// Method Input
     println!("Entrada:");
-	let mut input = DBLPInputManager{ lines: Vec::new(), };
+	let mut input = TextInputManager{ lines: Vec::new(), };
     input.new();
 
 	// Stop Words
