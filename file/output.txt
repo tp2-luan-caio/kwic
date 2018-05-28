@@ -1,0 +1,494 @@
+
+combining:
+combining query ambiguity and query-url strength for log-based query suggestion. - position: 1
+
+model:
+query ranking model for search engine query recommendation. - position: 3
+leveraging external knowledge to enhance query model for event query. - position: 7
+
+knowledge:
+leveraging external knowledge to enhance query model for event query. - position: 3
+
+examiners:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 6
+
+image:
+query initialization by virtual query image and pre-initial query feedback. - position: 6
+
+parallel:
+subgraph querying with parallel use of query rewritings and alternative algorithms. - position: 4
+
+useful:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 9
+
+subgraph:
+subgraph querying with parallel use of query rewritings and alternative algorithms. - position: 1
+
+log-based:
+combining query ambiguity and query-url strength for log-based query suggestion. - position: 8
+
+seq2seq:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 15
+
+analytics:
+process querying - enabling business intelligence through query-based process analytics. - position: 9
+
+uspto:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 5
+
+querycrumbs:
+querycrumbs - a compact visualization for navigating the search query history. - position: 1
+
+history:
+querycrumbs - a compact visualization for navigating the search query history. - position: 10
+
+framework:
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 3
+
+visualization:
+querycrumbs - a compact visualization for navigating the search query history. - position: 4
+
+output:
+query and output - generating words by querying distributed word representations for paraphrase generation. - position: 3
+
+accurate:
+cufid-query - accurate network querying through random walk based network flow estimation. - position: 2
+
+summary:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 11
+
+rnn:
+translation of natural language query into keyword query using a rnn encoder-decoder. - position: 11
+
+feedback:
+query initialization by virtual query image and pre-initial query feedback. - position: 10
+
+enhance:
+leveraging external knowledge to enhance query model for event query. - position: 5
+
+process:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 16
+process querying - enabling business intelligence through query-based process analytics. - position: 1
+process querying - enabling business intelligence through query-based process analytics. - position: 8
+
+preliminary:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 22
+
+ontology:
+first-order ontology mediated database querying via query reformulation. - position: 2
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 6
+
+constraints:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 13
+
+text:
+context sensitive query correction method for query-based text summarization. - position: 8
+
+searching:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 20
+
+analyzing:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 1
+
+foundations:
+querying a web of linked data - foundations and query execution - position: 7
+
+multi-document:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 8
+
+enabling:
+process querying - enabling business intelligence through query-based process analytics. - position: 3
+
+initial:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 10
+
+generation:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 15
+query and output - generating words by querying distributed word representations for paraphrase generation. - position: 13
+
+dbms:
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 5
+
+estimation:
+cufid-query - accurate network querying through random walk based network flow estimation. - position: 11
+
+focused:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 2
+
+contextual-aware:
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 8
+
+leveraging:
+leveraging external knowledge to enhance query model for event query. - position: 1
+
+compact:
+querycrumbs - a compact visualization for navigating the search query history. - position: 3
+
+coverage:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 9
+
+morphing:
+query morphing - a proximity-based approach for data exploration and query reformulation. - position: 2
+
+biomedical:
+visual query combinators for biomedical query mediation. - position: 5
+
+proximity:
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 6
+
+exploration:
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 7
+query morphing - a proximity-based approach for data exploration and query reformulation. - position: 8
+
+management:
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 9
+
+user-generated:
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 8
+
+spatial:
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 5
+
+navigating:
+querycrumbs - a compact visualization for navigating the search query history. - position: 6
+
+categorization:
+adaptive query relaxation and result categorization based on data distribution and query context. - position: 6
+
+query-reply:
+high quality information extraction and query-oriented summarization for automatic query-reply in social network. - position: 10
+
+event:
+leveraging external knowledge to enhance query model for event query. - position: 9
+
+study:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 23
+
+energy-aware:
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 8
+
+sna:
+search engine query recommendation - using sna over query logs with user profiles. - position: 6
+
+via:
+first-order ontology mediated database querying via query reformulation. - position: 6
+
+linkedin:
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 5
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 5
+
+logs:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 3
+search engine query recommendation - using sna over query logs with user profiles. - position: 9
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 6
+
+first-order:
+first-order ontology mediated database querying via query reformulation. - position: 1
+
+relevance:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 7
+
+manual:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 2
+
+paraphrase:
+query and output - generating words by querying distributed word representations for paraphrase generation. - position: 12
+
+pre-initial:
+query initialization by virtual query image and pre-initial query feedback. - position: 8
+
+documents:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 14
+
+proximity-based:
+query morphing - a proximity-based approach for data exploration and query reformulation. - position: 4
+
+combinators:
+visual query combinators for biomedical query mediation. - position: 3
+
+aquacold:
+aquacold - a crowdsourced query understanding and query construction tool for the linked data web. - position: 1
+
+models:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 16
+
+incorporating:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 5
+
+retrieval:
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 10
+
+exploring:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 1
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 1
+
+mediated:
+first-order ontology mediated database querying via query reformulation. - position: 3
+
+intelligence:
+process querying - enabling business intelligence through query-based process analytics. - position: 5
+
+execution:
+querying a web of linked data - foundations and query execution - position: 10
+
+correction:
+context sensitive query correction method for query-based text summarization. - position: 4
+
+query-oriented:
+high quality information extraction and query-oriented summarization for automatic query-reply in social network. - position: 6
+
+context:
+adaptive query relaxation and result categorization based on data distribution and query context. - position: 13
+context sensitive query correction method for query-based text summarization. - position: 1
+
+external:
+leveraging external knowledge to enhance query model for event query. - position: 2
+
+query-by-keyword:
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 2
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 2
+
+dynamic:
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 1
+
+querying:
+first-order ontology mediated database querying via query reformulation. - position: 5
+query and output - generating words by querying distributed word representations for paraphrase generation. - position: 7
+cufid-query - accurate network querying through random walk based network flow estimation. - position: 4
+process querying - enabling business intelligence through query-based process analytics. - position: 2
+subgraph querying with parallel use of query rewritings and alternative algorithms. - position: 2
+querying a web of linked data - foundations and query execution - position: 1
+
+query-based:
+process querying - enabling business intelligence through query-based process analytics. - position: 7
+context sensitive query correction method for query-based text summarization. - position: 7
+
+summarization:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 4
+context sensitive query correction method for query-based text summarization. - position: 9
+high quality information extraction and query-oriented summarization for automatic query-reply in social network. - position: 7
+
+query-driven:
+we can query more than we can tell - facilitating collaboration through query-driven knowledge-sharing. - position: 12
+
+virtual:
+query initialization by virtual query image and pre-initial query feedback. - position: 4
+
+query:
+combining query ambiguity and query-url strength for log-based query suggestion. - position: 2
+combining query ambiguity and query-url strength for log-based query suggestion. - position: 9
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 5
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 11
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 14
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 2
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 10
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 16
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 2
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 7
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 14
+query initialization by virtual query image and pre-initial query feedback. - position: 1
+query initialization by virtual query image and pre-initial query feedback. - position: 5
+query initialization by virtual query image and pre-initial query feedback. - position: 9
+first-order ontology mediated database querying via query reformulation. - position: 7
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 1
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 6
+query and output - generating words by querying distributed word representations for paraphrase generation. - position: 1
+adaptive query relaxation and result categorization based on data distribution and query context. - position: 2
+adaptive query relaxation and result categorization based on data distribution and query context. - position: 12
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 9
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 13
+query ranking model for search engine query recommendation. - position: 1
+query ranking model for search engine query recommendation. - position: 7
+visual query combinators for biomedical query mediation. - position: 2
+visual query combinators for biomedical query mediation. - position: 6
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 8
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 11
+leveraging external knowledge to enhance query model for event query. - position: 6
+leveraging external knowledge to enhance query model for event query. - position: 10
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 5
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 12
+we can query more than we can tell - facilitating collaboration through query-driven knowledge-sharing. - position: 3
+subgraph querying with parallel use of query rewritings and alternative algorithms. - position: 7
+aquacold - a crowdsourced query understanding and query construction tool for the linked data web. - position: 4
+aquacold - a crowdsourced query understanding and query construction tool for the linked data web. - position: 7
+context sensitive query correction method for query-based text summarization. - position: 3
+querycrumbs - a compact visualization for navigating the search query history. - position: 9
+query morphing - a proximity-based approach for data exploration and query reformulation. - position: 1
+query morphing - a proximity-based approach for data exploration and query reformulation. - position: 10
+translation of natural language query into keyword query using a rnn encoder-decoder. - position: 5
+translation of natural language query into keyword query using a rnn encoder-decoder. - position: 8
+search engine query recommendation - using sna over query logs with user profiles. - position: 3
+search engine query recommendation - using sna over query logs with user profiles. - position: 8
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 2
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 12
+querying a web of linked data - foundations and query execution - position: 9
+
+random:
+cufid-query - accurate network querying through random walk based network flow estimation. - position: 6
+
+cohort:
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 2
+
+profiles:
+search engine query recommendation - using sna over query logs with user profiles. - position: 12
+
+tool:
+aquacold - a crowdsourced query understanding and query construction tool for the linked data web. - position: 9
+
+clinical:
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 15
+
+keyword:
+translation of natural language query into keyword query using a rnn encoder-decoder. - position: 7
+
+reformulation:
+first-order ontology mediated database querying via query reformulation. - position: 8
+query morphing - a proximity-based approach for data exploration and query reformulation. - position: 11
+
+formulation:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 6
+
+query-by-example:
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 4
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 4
+
+facilitating:
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 1
+we can query more than we can tell - facilitating collaboration through query-driven knowledge-sharing. - position: 9
+
+improving:
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 1
+
+click:
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 5
+
+mediation:
+visual query combinators for biomedical query mediation. - position: 7
+
+initialization:
+query initialization by virtual query image and pre-initial query feedback. - position: 2
+
+visual:
+visual query combinators for biomedical query mediation. - position: 1
+
+prediction:
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 14
+
+enhancing:
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 5
+
+ambiguity:
+combining query ambiguity and query-url strength for log-based query suggestion. - position: 3
+
+repositories:
+facilitating cohort discovery by enhancing ontology exploration, query management and query sharing for large clinical data repositories. - position: 17
+
+knowledge-sharing:
+we can query more than we can tell - facilitating collaboration through query-driven knowledge-sharing. - position: 13
+
+optimization:
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 10
+
+patent:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 8
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 13
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 19
+
+generating:
+query and output - generating words by querying distributed word representations for paraphrase generation. - position: 4
+
+suggestion:
+combining query ambiguity and query-url strength for log-based query suggestion. - position: 10
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 13
+
+database:
+first-order ontology mediated database querying via query reformulation. - position: 4
+
+adaptive:
+adaptive query relaxation and result categorization based on data distribution and query context. - position: 1
+
+cufid-query:
+cufid-query - accurate network querying through random walk based network flow estimation. - position: 1
+
+engine:
+query ranking model for search engine query recommendation. - position: 6
+search engine query recommendation - using sna over query logs with user profiles. - position: 2
+
+interface:
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 3
+
+crowdsourced:
+aquacold - a crowdsourced query understanding and query construction tool for the linked data web. - position: 3
+
+extraction:
+high quality information extraction and query-oriented summarization for automatic query-reply in social network. - position: 4
+
+automatic:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 4
+high quality information extraction and query-oriented summarization for automatic query-reply in social network. - position: 9
+
+expansion:
+analyzing query logs of uspto examiners to identify useful query terms in patent documents for query expansion in patent searching - a preliminary study. - position: 17
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 6
+
+abstractive:
+query focused abstractive summarization - incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models. - position: 3
+
+translation:
+translation of natural language query into keyword query using a rnn encoder-decoder. - position: 1
+
+query-url:
+combining query ambiguity and query-url strength for log-based query suggestion. - position: 5
+
+ranking:
+query ranking model for search engine query recommendation. - position: 2
+
+ir:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 9
+
+talent:
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 6
+from query-by-keyword to query-by-example - linkedin talent search approach. - position: 6
+
+degree-of-interest:
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 9
+
+varied:
+dynamic query interface for spatial proximity query with degree-of-interest varied by distance to query point. - position: 10
+
+construction:
+exploring manual and automatic query formulation in patent ir - initial query construction and query generation process. - position: 12
+aquacold - a crowdsourced query understanding and query construction tool for the linked data web. - position: 8
+
+algorithms:
+subgraph querying with parallel use of query rewritings and alternative algorithms. - position: 11
+
+energy-efficient:
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 12
+
+rewritings:
+subgraph querying with parallel use of query rewritings and alternative algorithms. - position: 8
+
+encoder-decoder:
+translation of natural language query into keyword query using a rnn encoder-decoder. - position: 12
+
+quality:
+high quality information extraction and query-oriented summarization for automatic query-reply in social network. - position: 2
+
+alternative:
+subgraph querying with parallel use of query rewritings and alternative algorithms. - position: 10
+
+reliability:
+improving the reliability of query expansion for user-generated speech retrieval using query performance prediction. - position: 3
+
+green:
+a green framework for dbms based on energy-aware query optimization and energy-efficient query processing. - position: 2
+
+auto-completion:
+exploring query auto-completion and click logs for contextual-aware web search and query suggestion. - position: 3
+
+collaboration:
+we can query more than we can tell - facilitating collaboration through query-driven knowledge-sharing. - position: 10
+
+social:
+high quality information extraction and query-oriented summarization for automatic query-reply in social network. - position: 12

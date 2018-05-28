@@ -9,7 +9,7 @@ pub mod text_input_manager {
     impl InputManager for TextInputManager {
         // Constructor
         fn new(&mut self) {
-            let mut file_name: String = String::from("file/");
+            let mut file_name = String::new();
             let mut input = String::new();
             let mut file;
 
