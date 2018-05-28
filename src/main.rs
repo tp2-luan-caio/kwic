@@ -41,7 +41,8 @@ fn main() {
 	index.count(&mut input);
 
 	// Method Output
-	let mut output = TextOutputManager { index: index.index };
+	println!("\nOutput!");
+	let mut output = ShellOutputManager { index: index.index };
     output.show();
 
 }

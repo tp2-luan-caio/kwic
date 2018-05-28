@@ -10,7 +10,27 @@ pub mod shell_output_manager {
             for vec in index {
                 println!("\n{}:", vec.0);
                 for word in vec.1 {
-                    println!("{} - position: {}", word.0, word.1);
+                    let mut a = String::from(&word.0[..]);
+                    let split = a.split(" ");
+                    let mut i = 1;
+                    let mut aux = String::from("");
+                    let mut text = String::from("");
+                    for t in split {
+                        if &t[..] == "-" {
+                            i -= 1;
+                        }
+                        if i < word.1 {
+                            aux.push_str(&t[..]);
+                            aux.push_str(" ");
+                        }
+                        else {
+                            text.push_str(&t[..]);
+                            text.push_str(" ")
+                        }
+                        i += 1;
+                    }
+                    text.push_str(&aux[..]);
+                    println!("{}", text);
                 }
             }
         }
